@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+import Cart from "../../Cart/Cart";
 import classes from "./MealItem.module.css";
 import MealItemForm from "./MealItemForm";
 
@@ -12,6 +14,7 @@ const MealItem = (props) => {
       </div>
       <div>
         <MealItemForm id={props.id} />
+        <Cart />
       </div>
     </li>
   );
